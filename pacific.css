@@ -137,6 +137,26 @@ footer {
 
 }
 
+form {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+
+input {
+
+    margin-bottom: 0.5em;
+
+}
+
+textarea {
+
+    margin-bottom: 0.5em;
+
+}
+
 table {
 
     border: 2px solid #3399CC;
@@ -252,6 +272,23 @@ th {
         margin-left: 2em;
         margin-right: 2em;
         flex: 1;
+
+    }
+
+    form {
+
+        width: 60%;
+        max-width: 30em;
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: 6em, 1fr;
+
+    }
+
+    input[type="submit"] {
+
+        grid-column: 2;
+        width: 9em;
 
     }
 
