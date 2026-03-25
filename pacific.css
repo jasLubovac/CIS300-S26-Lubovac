@@ -137,9 +137,43 @@ footer {
 
 }
 
+table {
+
+    border: 2px solid #3399CC;
+    border-collapse: collapse;
+
+}
+
+td {
+
+    padding: 0.5em;
+    border: 2px solid #3399CC;
+    text-align: center;
+
+}
+
+tr:nth-child(odd) {
+
+    background-color: #F5FAFC;
+
+}
+
+th {
+
+    padding: 0.5em;
+    border: 2px solid #3399CC;
+    
+}
+
 * {
 
     box-sizing: border-box;
+
+}
+
+.text {
+
+    text-align: left;
 
 }
 
